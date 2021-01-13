@@ -57,10 +57,10 @@
 
         <nav class="nav-menu d-none d-lg-block">
           <ul>
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
         <!-- .nav-menu -->
@@ -70,48 +70,52 @@
     </header>
     <!-- End Header -->
 
-    <!-- ======= Hero Section ======= -->
-
     <main id="main">
       <!-- ======= Contact Section ======= -->
-      <section id="hero" class="d-flex align-items-center">
-        <div class="container">
-          <div class="row">
-            <div
-              class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <h1>HapoTech</h1>
-              <h2>Bringing your dreams of technology to reality.</h2>
-            </div>
-            <div
-              class="col-lg-6 order-1 order-lg-2 hero-img"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <img
-                src="assets/img/hire.jpg"
-                class="img-fluid animated"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Hero -->
-      <section id="contact" class="contact">
+      <section id="contact" class="contact" style="padding-top: 72px">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Hire Us</h2>
+            <h2>Contact Us</h2>
             <p>
-              Feel free to contact us and we will get back to you as soon as
-              possible.
+              Whether you have questions about our services, pricing, hiring or
+              training process, or anything else, we are here to help answer any
+              questions you might have. Use the form below to drop us an email.
+              We take old fashioned calls too. Whatever you need, we'd love to
+              help you start exceeding your goals.
             </p>
           </div>
 
           <div class="row">
-            <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <div class="col-lg-5 d-flex align-items-stretch">
+              <div class="info">
+                <div class="address">
+                  <i class="icofont-google-map"></i>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+
+                <div class="email">
+                  <i class="icofont-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+
+                <div class="phone">
+                  <i class="icofont-phone"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 290px"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
               <form
                 action="forms/contact.php"
                 method="post"
@@ -127,7 +131,7 @@
                       class="form-control"
                       id="name"
                       data-rule="minlen:4"
-                      data-msg="Please enter at least 4 characters"
+                      data-msg="Please enter at least 4 chars"
                     />
                     <div class="validate"></div>
                   </div>
@@ -143,106 +147,27 @@
                     />
                     <div class="validate"></div>
                   </div>
-                  <div class="form-group col-md-3">
-                    <label for="name">Area code</label>
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      data-rule="minlen:4"
-                      data-msg="Please enter at least 4 characters"
-                    />
-                    <div class="validate"></div>
-                  </div>
-                  <div class="form-group col-md-9">
-                    <label for="name">Phone Number</label>
-                    <input
-                      type="number"
-                      class="form-control"
-                      name="phone"
-                      id="phone"
-                      data-rule="min:9"
-                      data-msg="Please enter a valid phone number"
-                    />
-                    <div class="validate"></div>
-                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="name">Company Name</label>
+                  <label for="name">Subject</label>
                   <input
                     type="text"
                     class="form-control"
-                    name="companyName"
-                    id="companyName"
+                    name="subject"
+                    id="subject"
+                    data-rule="minlen:4"
+                    data-msg="Please enter at least 8 chars of subject"
                   />
                   <div class="validate"></div>
                 </div>
                 <div class="form-group">
-                  <label for="name">Budget</label>
-                  <input
-                    type="number"
-                    class="form-control"
-                    name="budjet"
-                    id="budjet"
-                    data-rule="min:"
-                    data-msg="Please enter a positive value"
-                  />
-                  <div class="validate"></div>
-                </div>
-                <div class="form-group">
-                  <div>Expertise required</div>
-                  <div>
-                    <select name="expertise" multiple class="form-control">
-                      <option value="Developer">Developer</option>
-                      <option value="Designer">Designer</option>
-                      <option value="Finance Expert">Finance Expert</option>
-                      <option value="Product Manager">Product Manager</option>
-                      <option value="Project Manager">Project Manager</option>
-                      <option value="I am not sure at the moment">
-                        I am not sure at the moment
-                      </option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <p>Have you worked with us before?</p>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="workHistory"
-                      id="yes"
-                      value="yes"
-                    />
-                    <label class="form-check-label" for="inlineRadio1"
-                      >Yes</label
-                    >
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input
-                      class="form-check-input"
-                      type="radio"
-                      name="workHistory"
-                      id="no"
-                      value="no"
-                    />
-                    <label class="form-check-label" for="inlineRadio2"
-                      >No</label
-                    >
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label for="message"
-                    >Give us a short explanation of the work you require our
-                    help with.</label
-                  >
+                  <label for="name">Message</label>
                   <textarea
                     class="form-control"
                     name="message"
                     rows="10"
                     data-rule="required"
-                    data-msg="Please describe your idea to us as briefly as possible"
+                    data-msg="Please write something for us"
                   ></textarea>
                   <div class="validate"></div>
                 </div>
@@ -333,7 +258,7 @@
 
       <div class="container footer-bottom clearfix">
         <div class="copyright">
-          &copy; Copyright <strong><span>Arsha</span></strong
+          &copy; Copyright <strong><span>HapoTech</span></strong
           >. All Rights Reserved
         </div>
         <div class="credits">
