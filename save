@@ -1,0 +1,134 @@
+<!-- <section
+        id="services"
+        class="services section-bg"
+        style="padding-top: 72px"
+      >
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Services</h2>
+            <p>
+              Our company provides a broad range of services in numerous areas
+              of technology of which some are listed below.
+            </p>
+          </div>
+
+          <div id="portfolio-content" class="center-text">
+            <div class="portfolio-page" id="page-1">
+              <div class="portfolio-group">
+                <div class="portfolio-item">
+                  <h3>Developing Mobile & Web Application</h3>
+                  <img src="assets/img/mobile.jpg" alt="image 1" />
+                  <div class="detail">
+                    <p>
+                      Your mobile and web development project deserves the best
+                      experts who can commit to ensuring your applications'
+                      success. Our team of IT professionals will ensure to
+                      strike a balance between your business objectives and
+                      deliver the best user experience to develop apps with the
+                      best features and robust capabilities. Our mobile and web
+                      developers are versed in a vast range of technology stacks
+                      such as Java, JavaScript, React Native, Xamarin Native,
+                      etc. Our goal is to deliver an extensive list of services
+                      to help you cater to the needs of your users, foster
+                      greater brand visibility, enter new markets, and drive
+                      higher conversions..
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-group">
+                <div class="portfolio-item">
+                  <h3>Implementing Cloud Infrastructure</h3>
+                  <img src="assets/img/cloud.jpg" alt="image 2" />
+                  <div class="detail">
+                    <p>
+                      When seeking to adopt cloud into your infrastructure, you
+                      will have many cloud services to manage. Partner with
+                      HapoTech to consolidate your IT resources and outsource
+                      your cloud management capabilities so your internal IT
+                      team can focus on the more critical tasks. We match your
+                      enterprise's cloud resource needs and help you scale up or
+                      down to streamline your cloud journey.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-group">
+                <div class="portfolio-item">
+                  <h3>Analyzing & Big Data</h3>
+                  <img src="assets/img/big-data.jpg" alt="image 3" />
+                  <div class="detail">
+                    <p>
+                      We bring together the right team of data analysts and
+                      scientists with immense expertise in interpreting,
+                      parsing, and displaying data in the most engaging,
+                      insightful, and easy to understand way. When you work with
+                      us, you can scale your performance levels with strategic
+                      and actionable insights. Leverage our expertise in data
+                      analytics & business intelligence solutions to make the
+                      most of your business data and increase your bottom line.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-group">
+                <div class="portfolio-item">
+                  <h3>Integrating APIs</h3>
+                  <img src="assets/img/api.png" alt="image 4" />
+                  <div class="detail">
+                    <p>
+                      We offer access to premier IT talents for your API
+                      development and API integration projects. Whether you need
+                      to develop or integrate APIs for web, mobile, and cloud,
+                      we can assemble the right talents or team for your
+                      project. Our experts are well-versed in diverse API
+                      integration areas, including PayPal integration, shipping
+                      API integration, Integration with REST-based APIs,
+                      JavaScript or XML, and many more. Partner with us and
+                      enjoy seamless and immense flexibility to expand your
+                      service across multiple platforms.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-group">
+                <div class="portfolio-item">
+                  <h3>Developing Software & Dashboard</h3>
+                  <img src="assets/img/software.jpg" alt="image 5" />
+                  <div class="detail">
+                    <p>
+                      We bring you the right developers and engineers for your
+                      custom software development solutions from the ground up
+                      to rapidly scale your project. Whether you need to create
+                      custom software solutions, static or interactive
+                      dashboards, we empower you with the right talents. When
+                      you outsource your IT needs to the right experts, you can
+                      be confident in a process that is tailored to your unique
+                      business needs and goals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-group">
+                <div class="portfolio-item">
+                  <h3>Acting As Your Extended Workbench</h3>
+                  <img src="assets/img/team.jpg" alt="image 6" />
+                  <div class="detail">
+                    <p>
+                      Hire a dedicated team of software experts who know
+                      precisely where, when, and how you need them. Our project
+                      managers, software engineers, and developers will augment
+                      your team, helping bring your products to reality
+                      on-budget and on-time. Whether you wish to source your
+                      entire project or that we work side-by-side with your IT
+                      team, we are here for you. Our defined approach ensures
+                      you have a dedicated team at your beck and call while
+                      maintaining total control over your project.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
